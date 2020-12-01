@@ -1,0 +1,26 @@
+.page-homepage .line {
+    height: 0.3px;
+    background: #454545;
+
+}
+.page-homepage .content-top {
+    margin: 14px 16px 15px;
+}
+.page-homepage .content .text {
+    font-family: SF Pro Text;
+    font-style: normal;
+    color: #FFFFFF;
+    align-self: flex-end;
+    margin-left: 8px;
+} 
+.page-homepage .content .text .firstname {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+}
+.page-homepage .content .text .fullname {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 11px;
+    padding: 9px 0px;
+}

@@ -1,0 +1,101 @@
+body {
+    background: #2A2A2F;
+}
+@media only screen and (max-width: 375px) {
+    /* login-signup common */
+
+    .page-login input,
+    .page-signup input
+    {
+        height: 42.851173400878906px;
+        width: 343px;
+        border-radius: 10px;
+        border: 0.5px solid rgba(255, 255, 255, 0.2);
+        padding: 12px;
+        margin: auto;
+        margin-bottom: 12px;
+    }
+    .page-login button,
+    .page-signup button {
+        height: 42.851173400878906px;
+        width: 343px;
+        border-radius: 10px;
+        background: #000000;
+        color: white;
+        margin: auto;
+    }
+    .border-line {
+        height: 0.33px;
+        width: 132px;
+        background-color:  rgba(255, 255, 255, 0.15);
+    }
+    .border-text {
+        margin: 0 30.5px;
+        font-family: SF Pro Text;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 14px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: white;
+    }
+    .log-content {
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: -0.15000000596046448px;
+        text-align: center;
+        
+        color: rgba(255, 255, 255, 0.6);
+        margin: auto;
+    }
+
+    /* login page */
+    .page-login .logo {
+        padding-top: 114px;
+    } 
+    .page-login .content {
+        margin: 61px 0px 101px;
+    }
+    
+    .page-login .forgot {
+        align-self: flex-end;
+        text-align: right;
+    }
+    .page-login .forgot a{
+        font-family: SF Pro Text;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0.15000000596046448px;
+        color: white;
+        margin-right: 15px; 
+    }
+    .page-login button {
+        margin-top: 28.5px;
+    }
+    .page-login .log-content {
+        margin-top: 40px;
+    }
+
+    /* signup page */
+    .page-signup .logo {
+        padding-top: 66px;
+    }
+    .page-signup .content {
+        margin: 69.24px 0px 112.7px;
+    }
+    .page-signup button {
+        margin-top: 52px;
+    }
+    .page-login .log-content {
+        margin-top: 40px;
+    }
+    .page-signup .log-content {
+        margin-top: 20px;
+    }
+}

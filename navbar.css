@@ -1,0 +1,97 @@
+.content-navbar {
+    padding: 15px 0px 15px;
+}
+.content-navbar .text {
+    display: flex;
+    justify-content: center;
+}
+.content-navbar .text span {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.01px;
+    color: #F9F9F9;
+
+}
+.content-navbar * {
+	box-sizing: border-box; 
+	font-size: 62.5%;
+	-webkit-overflow-scrolling: touch;
+}
+    
+.content-navbar, .content-navbar *:before, .content-navbar *:after { box-sizing: inherit; }
+
+body {
+	background: #282828;
+  	/* color: #333; */
+  	font-family: "Open Sans", sans-serif;
+	padding: 0;
+}
+
+a {
+	color: #333;
+	text-decoration: none
+}
+
+a:hover { 
+	opacity: 0.75; 
+}
+
+img {
+	height: auto!important;
+}
+
+.swipey-bar-wrapper {
+	overflow-x: scroll;
+	/* padding-bottom: 1.6rem;
+	padding-left: 1.6rem;
+	padding-top: 2.4rem; */
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+
+	max-width: 375px;
+	margin: auto;
+}
+
+.swipey-bar-container {	
+	font-size: 0;
+	/* margin-left: -3.2rem; */
+}
+
+.swipey-box {
+	display: inline-block;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin: 10px;
+	overflow: hidden;
+	/* padding: 0.05rem; */
+	position: relative;
+}
+
+.swipey-box-name { 
+	display: block;
+	height: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.swipey-bar-wrapper::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.swipey-bar-wrapper::-webkit-scrollbar:horizontal {
+    height: 1rem;
+}
+
+/* .swipey-bar-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    border: 0.2rem solid white;
+    background-color: rgba(0, 0, 0, .3);
+} */
+
+
