@@ -4,24 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="menu.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="homepage-top.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/swipe.css">
+    <link rel="stylesheet" href="./css/homepage-top.css">
     <link rel="stylesheet" href="./css/homepage.css">
 </head>
 <body>
     <!-- Mobile Menu -->
-    <nav class="menu push push-left">
+    <nav data-role="menu" class="menu push push-left main-menu">
         <a href="#" class="backBtn">&#8594;</a>
-        <a href="#">Push Left Menu</a>
-        <a href="#">About</a>
-        <a href="#">Products</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+        <a href="#">Anniee L</a>
+        <a href="#">
+            <div class="image">
+                <img src="./svg/bookmark-save.svg" alt="" srcset="">
+            </div>
+            <div class="text">
+                <span>Saved</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="image">
+                <img src="./svg/subscrip.svg" alt="" srcset="">
+            </div>
+            <div class="text">
+                <span>Subscription Plan</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="image">
+                <img src="./svg/radius.svg" alt="" srcset="">
+            </div>
+            <div class="text">
+                <span>Radius Mile</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="image">
+                <img src="./svg/resiver.svg" alt="" srcset="">
+            </div>
+            <div class="text">
+                <span>Support</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="image">
+                <img src="./svg/policy.svg" alt="" srcset="">
+            </div>
+            <div class="text">
+                <span>Privecy policy</span>
+            </div>
+        </a>
     </nav>
 
     <!-- Start of home page -->
@@ -132,6 +169,47 @@
                     <span class="firstname">Adfab</span>
                 </div>
                 <div class="blank"></div>
+                <div class="expand d-jc-c d-a-c">
+                    <img src="./svg/threepoint.svg" alt="" srcset="">
+                </div>
+            </div>
+            <div class="content-slidebar">
+                <div class="swiper-container">                  
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./svg/image1.svg" alt="" srcset="">
+                        </div>
+                        <div class="swiper-slide"><img src="./svg/image2.svg" alt="" srcset=""></div>
+                        <div class="swiper-slide"><img src="./svg/image3.svg" alt="" srcset=""></div>
+                        <div class="swiper-slide"><img src="./svg/image4.svg" alt="" srcset=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                
+                </div>
+            </div>
+            <div class="content-bottom">
+                <div class="marks d-jc-b">
+                    <div class="bottom-left d-flex">
+                        <div class="hart">
+                            <img src="./svg/hart.svg" alt="" srcset="">
+                        </div>
+                        <div class="message">
+                            <img src="./svg/message_1.svg" alt="" srcset="">
+                        </div>
+                        <div class="flane">
+                            <img src="./svg/flane.svg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="blank"></div>
+                    <div class="bottom-ritht">
+                        <div>
+                            <img src="./svg/bookmark.svg" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="text">
+                    <span>153</span><span>&nbsp;Liks</span>
+                </div>
             </div>
             
         </div><!-- /content -->
@@ -141,6 +219,43 @@
         </div><!-- /footer -->
         
     </div>
+    <div data-role="bottom-tab" class="tabnab">
+        <ul class="d-jc-b">
+            <li>
+                <div class="image">
+                    <img src="./svg/home.svg" alt="" srcset="">
+                </div>
+                <div class="line active"></div>
+            </li>
+            <li>
+                <div class="image">
+                    <img src="./svg/search.svg" alt="" srcset="">
+                </div>
+                <div class="line"></div>
+            </li>
+            <li>
+                <div class="image">
+                    <img src="./svg/camera.svg" alt="" srcset="">
+                </div>
+                <div class="line"></div>
+            </li>
+            <li>
+                <div class="image">
+                    <img src="./svg/hart-bold.svg" alt="" srcset="">
+                </div>
+                <div class="line"></div>
+            </li>
+            <li>
+                <div class="image">
+                    <img src="./svg/profile.svg" alt="" srcset="">
+                </div>
+                <div class="line"></div>
+            </li>
+        </ul>
+    </div>
 </body>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="./js/menu.js"></script>
+<script src="./js/swipe.js"></script>
 </html>

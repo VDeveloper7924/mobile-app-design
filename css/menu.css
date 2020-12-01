@@ -34,8 +34,8 @@ body {
 }
 
 .menu {
-    border-right: 1px solid #2980b9;
-    background-color: #3498db;
+    
+    background-color: #000;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -48,17 +48,14 @@ body {
 .menu a {
     display: block;
     color: #fff;
-    padding: 16px;
-    border-top: 1px solid #2980b9;
+    padding: 16px 0px;
     text-decoration: none;
     position: relative;
     z-index: 11;
 }
-.menu a:last-child {
-    border-bottom: 1px solid #2980b9;
-}
+
 .menu a:hover, .menu a:active {
-    background-color: #2980b9;
+    /* background-color: #2980b9; */
 }
 .menu-left {
     left: -280px;
@@ -111,4 +108,25 @@ body {
 }
 .push-toright {
     left: -280px;
+}
+.main-menu  a {
+    display: flex;
+}
+.main-menu .text span, .main-menu a{
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: -0.25px;
+
+    color: #F9F9F9;
+}
+.main-menu .image {
+    width: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

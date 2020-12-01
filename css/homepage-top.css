@@ -1,0 +1,79 @@
+.page-homepage .line {
+    height: 0.3px;
+    background: #454545;
+
+}
+.page-homepage .content-top {
+    margin: 14px 16px 15px;
+}
+.page-homepage .content-top .text {
+    font-family: SF Pro Text;
+    font-style: normal;
+    color: #FFFFFF;
+    align-self: flex-end;
+    margin-left: 8px;
+} 
+.page-homepage .content .text .firstname {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+}
+.page-homepage .content .text .fullname {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 11px;
+    padding: 9px 0px;
+}
+.blank {
+    flex-grow: 1;
+}
+.swiper-wrapper img {
+    width: 100%;
+}
+.page-homepage .content-bottom .marks{
+    padding: 15px 20px 17px 16px;
+}
+.page-homepage .content-bottom .message {
+    margin: 0px 17px;
+}
+.page-homepage .content-bottom .text {
+    margin-left: 15px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: -0.165px;
+
+    color: #FFFFFF;
+}
+
+/* bottom tab */
+.tabnab {
+    padding: 0px 30px 30px;
+}
+.tabnab li {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+}
+.tabnab li .image {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabnab .line{
+    width: 19px;
+    height: 2px;
+    background-color: transparent;
+    margin: auto;
+}
+.tabnab .line.active {
+    background-color: white;
+}
+.tabnab ul {
+    
+}
