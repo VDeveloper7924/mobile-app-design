@@ -1,0 +1,86 @@
+.page-camera {
+    background-color: white;
+}
+.page-camera.dark {
+    background: #2A2A2F;
+}
+.page-camera .header {
+    padding: 17.5px 16px;
+}
+.page-camera .header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-camera .text span {
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+}
+.page-camera .image-wrap {
+    height: calc( 100vh - 137px );
+    overflow: hidden;
+}
+.page-camera .image-wrap img {
+    width: 100%;
+}
+.camera-footer {
+    width: 100%;
+    height: 160px;
+    position: fixed;
+    bottom: 80px;
+    background: rgba(0, 0, 0, 0.9);
+}
+.camera-footer::before {
+    content: url(../svg/camera-change.svg);
+    position: absolute;
+    top: -45px;
+    left: 23px;
+}
+.camera-footer::after {
+    content: url(../svg/camera-right.svg);
+    position: absolute;
+    top: -45px;
+    right: 23px;
+}
+.camera-footer .shotbutton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.camera-footer .image-wrap {
+    padding: 37.5px 31px;
+}
+/* bottom tab */
+.activity-tabnab {
+    background-color: white;
+    position: sticky;
+    bottom: 0px;
+    height: 80px;
+    padding-bottom: 36px;
+    z-index: 10;
+}
+.activity-tabnab.dark {
+    background-color: black;
+}
+.activity-tabnab button {
+    height: 44px;
+    width: 125px;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.33000001311302185px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+.activity-tabnab .button-wrap {
+
+}
