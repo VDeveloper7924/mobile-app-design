@@ -1,0 +1,58 @@
+/* bottom tab */
+.tabnab {
+    background-color: white;
+    position: sticky;
+    bottom: 0px;
+    height: 80px;
+    padding: 0px 30px 30px;
+    z-index: 10;
+}
+.tabnab.dark {
+    background-color: black;
+}
+.tabnab li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+}
+.tabnab li .image {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabnab .line{
+    width: 19px;
+    height: 2px;
+    background-color: transparent;
+    margin: auto;
+}
+.tabnab .line.active {
+    background-color: black;
+}
+.tabnab.dark .line.active {
+    background-color: white;
+}
+.tabnab ul {
+    
+}
+.tabnab .image svg rect,
+.tabnab .image svg path {
+    fill: black;
+    stroke: none;
+}
+.tabnab.dark svg rect,
+.tabnab.dark svg path {
+    fill: white;
+    stroke: none;
+}
+
+.tabnab .image.profer svg rect,
+.tabnab .image.profer svg path {
+    fill: white;
+}
+.tabnab.dark .profer svg rect,
+.tabnab.dark .profer svg path {
+    fill: black;
+}

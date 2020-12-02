@@ -7,6 +7,7 @@ html {
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
+    position: relative;
   }
   
   * {

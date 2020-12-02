@@ -50,30 +50,3 @@
     color: #FFFFFF;
 }
 
-/* bottom tab */
-.tabnab {
-    padding: 0px 30px 30px;
-}
-.tabnab li {
-    display: flex;
-    flex-direction: column;
-    height: 50px;
-}
-.tabnab li .image {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.tabnab .line{
-    width: 19px;
-    height: 2px;
-    background-color: transparent;
-    margin: auto;
-}
-.tabnab .line.active {
-    background-color: white;
-}
-.tabnab ul {
-    
-}

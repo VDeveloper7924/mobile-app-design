@@ -1,5 +1,6 @@
 .page-homepage {
     background: #2A2A2F;
+    /* height: calc( 100vh - 80px ); */
 }
 
 .homepage__header {

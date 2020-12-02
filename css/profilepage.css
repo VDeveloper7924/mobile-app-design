@@ -1,0 +1,96 @@
+.page-profile {
+    background-color: white;
+}
+.page-profile.dark {
+    background-color: black;
+}
+.profile {
+    padding: 16px 12px 0px;
+}
+.profile-top {
+    padding-bottom: 8.77px;
+}
+.profile-top .name {
+    flex-grow: 17;
+}
+.profile-top .profile-blank {
+    flex-grow: 3;
+}
+.profile-top .name .text {
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+
+    letter-spacing: -0.33px;
+
+    color: #000000;
+}
+.profile-bottom > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-bottom span {
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: -0.165px;
+    color: #000000;
+}
+.profile-bottom .number {
+    font-weight: 600;
+    font-size: 18px;
+}
+.profile-bottom .number {
+    font-weight: normal;
+    font-size: 13px;
+}
+.page-profile svg rect {
+    fill: black;
+}
+.page-profile.dark svg rect {
+    fill: white;
+}
+
+.page-profile .photo-wrap {
+    height: 76px;
+    width: 76px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-profile .active .photo-wrap {
+    border: 1px solid #15151F;
+}
+.page-profile .plus .photo-wrap {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.page-profile.dark svg path {
+    fill:white;
+}
+.page-profile .content-top ul {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.page-profile .content-navbar {
+    padding-bottom: 0px;
+}
+.page-profile .content-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.page-profile .content-main div {
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6%;
+}
+.page-profile .content-main div img {
+    width: 100%;
+}
