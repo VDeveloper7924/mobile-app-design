@@ -1,0 +1,39 @@
+.page-activity {
+    background-color: white;
+}
+.page-activity.dark {
+    background-color: black;
+}
+.page-activity .header {
+    padding:26px 16px 13px;
+}
+.page-activity .header span {
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+    
+    letter-spacing: -0.33px;
+    
+    color: #000000;
+}
+.page-activity .image-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+.page-activity .content-wrap>div:nth-child(2n) .image--big {
+    order: 2;
+}
+.page-activity .image--big {
+    width: 66%;
+}
+.page-activity .image--small {
+    width: 32.5%;
+}
+.page-activity .image-wrap img{
+    width: 100%;
+}
+
+

@@ -11,75 +11,53 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/swipe.css">
+   
     <link rel="stylesheet" href="./css/homepage-top.css">
     <link rel="stylesheet" href="./css/homepage.css">
-    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/profilepage.css">
+    <link rel="stylesheet" href="./css/activity.css">
     <link rel="stylesheet" href="./css/tabnav.css">
 </head>
 <body>
 
     <!-- Start of home page -->
-    <div data-role="page" id="search" class="page page-search">
+    <div data-role="page" id="profilepage" class="page page-activity">
         
-        <div data-role="header" class="search __header">
-            <div class="search__header--top d-jc-b">
-                <div>
-                    <input type="text" name="" id="" placeholder="Search">
-                </div>
-                <div class="d-jc-c d-a-c">
-                    <a href="http://"><img src="./svg/radius.svg" alt="" srcset=""></a>
-                </div>
-                
+        <div data-role="header" class="header">
+            <div class="text">
+                <span>Find People</span>
             </div>
-            <div class="search__header--bottom">
-                <ul>
-                    <li>
-                        <button type="button">
-                            <img src="./svg/media_inc.svg" alt="" srcset="">
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button">
-                            <img src="./svg/shop_inc.svg" alt="" srcset="">
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button">
-                            <img src="./svg/style_text.svg" alt="" srcset="">
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button">
-                            <img src="./svg/sport_text.svg" alt="" srcset="">
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button">
-                            <img src="./svg/auto_text.svg" alt="" srcset="">
-                        </button>
-                    </li>
-                </ul>
-            </div>
-            
         </div><!-- /header -->
         
-        <div data-role="content" class="search__content">
-            <div class="search__header--black"></div>
-            <div class="search__content--one">
-                <img src="./svg/image/image-1.svg" alt="" srcset="">
-            </div>
-            <div class="search__content--twe d-flex">
-                <img src="./svg/image/image-2.svg" alt="" srcset="" class="badge">
-                <div class="d-flex-c">
-                    <img src="./svg/image/image-3.svg" alt="" srcset="">
-                    <img src="./svg/image/image-3.svg" alt="" srcset="">
+        <div data-role="content" class="content">
+            <div class="content-wrap">
+                <div class="image-wrap">
+                    <div class="image--big">
+                        <img src="./svg/activity/big-image-1.svg" alt="" srcset="">
+                    </div>
+                    <div class="image--small">
+                        <img src="./svg/activity/small-image-1.svg" alt="" srcset="">
+                        <img src="./svg/activity/small-image-2.svg" alt="" srcset="">
+                    </div>
                 </div>
-                
-            </div>
-            <div class="search__content--three">
-                <img src="./svg/image/image-5.svg" alt="" srcset="">
-                <img src="./svg/image/image-6.svg" alt="" srcset="" class="badge">
-                <img src="./svg/image/image-7.svg" alt="" srcset="" class="badge">
+                <div class="image-wrap">
+                    <div class="image--big">
+                        <img src="./svg/activity/big-image-2.svg" alt="" srcset="">
+                    </div>
+                    <div class="image--small">
+                        <img src="./svg/activity/small-image-3.svg" alt="" srcset="">
+                        <img src="./svg/activity/small-image-4.svg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="image-wrap">
+                    <div class="image--big">
+                        <img src="./svg/activity/big-image-3.svg" alt="" srcset="">
+                    </div>
+                    <div class="image--small">
+                        <img src="./svg/activity/small-image-5.svg" alt="" srcset="">
+                        <img src="./svg/activity/small-image-6.svg" alt="" srcset="">
+                    </div>
+                </div>
             </div>
         </div><!-- /content -->
 
@@ -88,8 +66,8 @@
         </div><!-- /footer -->
         
     </div>
-    <!-- Start of tabnab -->
-    <div data-role="bottom-tab" class="tabnab dark">
+    <!-- Start of tabnav -->
+    <div data-role="bottom-tab" class="tabnab">
         <ul class="d-jc-b">
             <li>
                 <div class="image">
@@ -100,7 +78,7 @@
                 </div>
                 <div class="line"></div>
             </li>
-            <li class="active">
+            <li>
                 <div class="image">
                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 9.75C2.5 5.74594 5.74594 2.5 9.75 2.5C13.7541 2.5 17 5.74594 17 9.75C17 13.7541 13.7541 17 9.75 17C5.74594 17 2.5 13.7541 2.5 9.75ZM9.75 1C4.91751 1 1 4.91751 1 9.75C1 14.5825 4.91751 18.5 9.75 18.5C11.8962 18.5 13.862 17.7273 15.3842 16.4449L18.2197 19.2803C18.5126 19.5732 18.9874 19.5732 19.2803 19.2803C19.5732 18.9874 19.5732 18.5126 19.2803 18.2197L16.4449 15.3842C17.7273 13.862 18.5 11.8962 18.5 9.75C18.5 4.91751 14.5825 1 9.75 1Z" fill="white"/>
@@ -118,11 +96,11 @@
                         <path d="M12.5004 5.99992C9.34961 5.99992 6.78613 8.5634 6.78613 11.7142C6.78613 14.865 9.34965 17.4285 12.5004 17.4285C15.6512 17.4285 18.2147 14.865 18.2147 11.7142C18.2147 8.5634 15.6513 5.99992 12.5004 5.99992ZM12.5004 15.9999C10.1371 15.9999 8.21473 14.0775 8.21473 11.7142C8.21473 9.35093 10.1371 7.42852 12.5004 7.42852C14.8637 7.42852 16.7861 9.35093 16.7861 11.7142C16.7861 14.0775 14.8637 15.9999 12.5004 15.9999Z" fill="white"/>
                         <path d="M12.5004 4.49992C8.52118 4.49992 5.28613 7.73497 5.28613 11.7142H8.28613C8.28613 9.39183 10.178 7.49992 12.5004 7.49992V4.49992ZM5.28613 11.7142C5.28613 15.6935 8.52124 18.9285 12.5004 18.9285V15.9285C10.1781 15.9285 8.28613 14.0366 8.28613 11.7142H5.28613ZM12.5004 18.9285C16.4796 18.9285 19.7147 15.6935 19.7147 11.7142H16.7147C16.7147 14.0366 14.8228 15.9285 12.5004 15.9285V18.9285ZM19.7147 11.7142C19.7147 7.73497 16.4797 4.49992 12.5004 4.49992V7.49992C14.8228 7.49992 16.7147 9.39183 16.7147 11.7142H19.7147ZM12.5004 14.4999C10.9656 14.4999 9.71473 13.2491 9.71473 11.7142H6.71473C6.71473 14.9059 9.30871 17.4999 12.5004 17.4999V14.4999ZM9.71473 11.7142C9.71473 10.1794 10.9656 8.92852 12.5004 8.92852V5.92852C9.30871 5.92852 6.71473 8.5225 6.71473 11.7142H9.71473ZM12.5004 8.92852C14.0353 8.92852 15.2861 10.1794 15.2861 11.7142H18.2861C18.2861 8.5225 15.6922 5.92852 12.5004 5.92852V8.92852ZM15.2861 11.7142C15.2861 13.2491 14.0353 14.4999 12.5004 14.4999V17.4999C15.6922 17.4999 18.2861 14.9059 18.2861 11.7142H15.2861Z" fill="white" mask="url(#path-1-inside-1)"/>
                         <path d="M23.9205 5.99612C23.9198 4.81627 22.9579 3.85612 21.7777 3.85612H18.6478L17.4159 1.39465C17.2945 1.15269 17.0476 1 16.777 1H8.20555C7.9349 1 7.68727 1.15269 7.56659 1.39465L6.33611 3.85682L3.21116 3.86099C2.0316 3.86309 1.07178 4.82399 1.07178 6.00314V18.8579C1.07178 20.0391 2.033 21 3.21463 21H21.7853C22.967 21 23.9282 20.0384 23.9282 18.8565L23.9205 5.99612ZM21.7854 19.5719H3.21467C2.82058 19.5719 2.50038 19.2518 2.50038 18.8579V6.00309C2.50038 5.60979 2.82053 5.28977 3.21327 5.28907L6.7791 5.2842C7.04976 5.2835 7.29668 5.13082 7.41736 4.88955L8.64714 2.42804H16.3355L17.5673 4.8895C17.6887 5.13147 17.9356 5.28416 18.2063 5.28416H21.7777C22.1712 5.28416 22.5004 5.60422 22.5004 5.99747V18.8572C22.5004 19.2511 22.1795 19.5719 21.7854 19.5719Z" fill="white" stroke="white" stroke-width="1.5"/>
-                        </svg>
+                    </svg>
                 </div>
                 <div class="line"></div>
             </li>
-            <li>
+            <li class="active">
                 <div class="image">
                     <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M9.30694 3.69422C7.75004 2.10193 5.18806 2.10193 3.63115 3.69422C2.12295 5.23669 2.12295 7.70139 3.63115 9.24387L10.7303 16.5044C10.8064 16.5822 10.9317 16.5822 11.0078 16.5044L18.1069 9.24387C19.6151 7.70139 19.6151 5.23669 18.1069 3.69422C16.55 2.10193 13.9881 2.10193 12.4312 3.69422L11.4053 4.74338C11.2642 4.88769 11.0709 4.96904 10.869 4.96904C10.6672 4.96904 10.4739 4.88769 10.3328 4.74338L9.30694 3.69422ZM2.55864 2.64554C4.70394 0.451487 8.23415 0.451487 10.3794 2.64554L10.869 3.14626L11.3586 2.64554C13.5039 0.451489 17.0342 0.451487 19.1794 2.64554C21.2576 4.77096 21.2576 8.16713 19.1794 10.2925L12.0803 17.5531C11.4158 18.2327 10.3223 18.2327 9.65781 17.5531L2.55864 10.2925C0.480451 8.16713 0.480455 4.77096 2.55864 2.64554Z" fill="white"/>
