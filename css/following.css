@@ -1,0 +1,108 @@
+.page-following {
+    background: #2A2A2F;
+}
+.page-following .header {
+    padding: 15px 20px;
+}
+.page-following .header span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    
+    letter-spacing: -0.33px;
+    color: #F9F9F9;
+}
+.page-following .search {
+    padding:7.5px 16px;
+}
+.page-following .input-bar > * {
+    background: rgba(255, 255, 255, 0.05);
+    height: 32px;
+}
+.page-following .input-bar .search-mark {
+    width: 35px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.page-following .input-bar input {
+    width: 257px;
+    border-radius: 0px 10px 10px 0px;
+}
+.page-following .cancel-button button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    
+    letter-spacing: -0.165px;
+
+    color: #FFFFFF;
+}
+
+.page-following .photo-wrap {
+    height: 36px;
+    width: 36px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.page-following .friend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+}
+
+.page-following .friend .man-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.page-following .friend span {
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: -0.165px;
+    color: #FFFFFF;
+}
+.page-following .friend .title span {
+    font-weight: 600;
+    font-size: 15px;
+}
+.page-following .friend .content span {
+    font-weight: normal;
+    font-size: 12px;
+}
+.page-following .friend .text-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+}
+.page-following .friend .text-wrap span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    letter-spacing: -0.1px;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+.page-following .peoples {
+    margin-top: 46px;
+}
+.page-followers .peoples {
+    margin-top: 10px;
+}
