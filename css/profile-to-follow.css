@@ -1,0 +1,135 @@
+.page-profile-follow {
+    background-color: white;
+}
+.page-profile.dark {
+    background-color: black;
+}
+.profile-follow {
+    padding:28px 20px 0px;
+}
+.profile-top-avatar {
+    padding: 32.5px 0px 20px;
+}
+.profile-top-avatar .avatar {
+    margin-bottom: 10px;
+}
+.profile-top-bar .text {
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -0.33000001311302185px;
+}
+.profile-top-bar svg circle {
+    fill:black;
+}
+.profile-top-avatar .text {
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+    /* or 90% */
+
+    letter-spacing: -0.165px;
+
+    color: #000000;
+}
+.profile-bottom > div {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-bottom span {
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: -0.165px;
+    color: #000000;
+}
+.profile-bottom .number {
+    font-weight: 600;
+    font-size: 18px;
+}
+.profile-bottom .text {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.page-profile-follow .photo-wrap {
+    height: 76px;
+    width: 76px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-profile-follow .active .photo-wrap {
+    border: 1px solid #15151F;
+}
+.page-profile-follow .plus .photo-wrap {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.page-profile-follow .content-top ul {
+    width: 100%;
+    padding: 13px 0px 10px;
+    margin-bottom: 9px;
+    border-bottom: 1px solid #E0E0E0;
+    display: flex;
+    align-items: center;
+}
+.page-profile-follow .content-navbar {
+    padding-bottom: 0px;
+}
+.page-profile-follow .content-navbar .text span {
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    letter-spacing: -0.01px;
+
+    color: #000000;
+}
+.page-profile-follow .content-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.page-profile-follow .content-main div {
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6%;
+}
+.page-profile-follow .content-main div img {
+    width: 100%;
+}
+.page-profile-follow .content-button {
+    margin-bottom: 24px;
+}
+.page-profile-follow .content-button button{
+    height: 24px;
+    width: 174.57066345214844px;
+    border-radius: 5px;
+}
+.page-profile-follow .content-button .follow {
+    background: #E33191;
+    color: white;
+}
+.page-profile-follow .content-button .message {
+    border: 1px solid #595252;
+    color: #595252;
+}
+.page-profile-follow .line {
+    background: #FFFFFF;
+    border: 1px solid #C0B4B4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

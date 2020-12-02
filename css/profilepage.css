@@ -11,10 +11,10 @@
     padding-bottom: 8.77px;
 }
 .profile-top .name {
-    flex-grow: 17;
+    flex-grow: 9;
 }
 .profile-top .profile-blank {
-    flex-grow: 3;
+    flex-grow: 1;
 }
 .profile-top .name .text {
     font-family: Helvetica Neue, Helvetica, Arial;
@@ -29,6 +29,7 @@
     color: #000000;
 }
 .profile-bottom > div {
+    width: 33.33%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +45,7 @@
     font-weight: 600;
     font-size: 18px;
 }
-.profile-bottom .number {
+.profile-bottom .text {
     font-weight: normal;
     font-size: 13px;
 }
