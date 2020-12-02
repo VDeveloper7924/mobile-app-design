@@ -1,0 +1,98 @@
+.page-message {
+    background: #2A2A2F;
+}
+.page-message .header {
+    padding: 15px 20px;
+}
+.page-message .header span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+    letter-spacing: -0.33px;
+    color: #F9F9F9;
+}
+.page-message .search {
+    padding:7.5px 16px;
+}
+.page-message .input-bar > * {
+    background: rgba(255, 255, 255, 0.05);
+    height: 32px;
+}
+.page-message .input-bar .search-mark {
+    width: 35px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.page-message .input-bar input {
+    width: 257px;
+    border-radius: 0px 10px 10px 0px;
+}
+.page-message .cancel-button button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: -0.165px;
+
+    color: #FFFFFF;
+}
+
+.page-message .photo-wrap {
+    height: 64px;
+    width: 64px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+}
+.page-message .active .photo-wrap {
+    border: 1px solid #48484A;
+}
+.page-message .friend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 15px 6px 12px;
+}
+.page-message .friend a {
+    flex-grow: 1;
+}
+.page-message .friend .man-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.page-message .friend .text,
+.page-message .friend {
+    flex-grow: 1;
+}
+.page-message .friend span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.1px;
+}
+.page-message .friend .title span {
+    color: #F9F9F9;
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.page-message .friend .content span {
+    color: rgba(255, 255, 255, 0.6);
+}
+.page-message .friend .content {
+    display: flex;
+    justify-content: space-between;
+}
+.page-message .friend .mark {
+    padding-left: 23px;
+}
