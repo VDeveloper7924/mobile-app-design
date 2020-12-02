@@ -7,7 +7,7 @@
     margin: 14px 16px 15px;
 }
 .page-homepage .content-top .text {
-    font-family: SF Pro Text;
+    font-family: Helvetica Neue, Helvetica, Arial;
     font-style: normal;
     color: #FFFFFF;
     align-self: flex-end;
@@ -38,7 +38,7 @@
 }
 .page-homepage .content-bottom .text {
     margin-left: 15px;
-    font-family: SF Pro Display;
+    font-family: Helvetica Neue, Helvetica, Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
