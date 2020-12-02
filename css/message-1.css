@@ -1,0 +1,103 @@
+.page-message-1 .header {
+    padding: 20px;
+}
+.page-message-1 .man-wrap {
+    flex-grow: 1;
+}
+.page-message-1 .man-wrap .avatar{
+    margin: 0px 10px 0px 20px;
+}
+.page-message-1 span {
+    font-style: normal;
+    font-weight: normal;
+    
+    letter-spacing: -0.1px;
+}
+.page-message-1 .title span {
+
+    font-size: 13px;
+    line-height: 16px;
+    color: #F9F9F9;
+}
+.page-message-1 .content span {
+    font-size: 10px;
+    line-height: 12px;
+    color: #2C993D;
+}
+.page-message-1 .text-wrap span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.1px;
+    text-transform: uppercase;
+    color:#2F80ED;
+}
+.page-message-1 .text-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 20px;
+    border: 1px solid #2F80ED;
+    border-radius: 5px;
+}
+
+
+.page-message-1 .main {
+    padding: 20px;
+}
+.page-message-1 .main > div {
+    padding: 8px 0px;
+}  
+.page-message-1  input[type="checkbox"] {
+    position: relative;
+    width: 24px;
+    height: 15.75px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background 300ms linear;
+}
+
+.page-message-1 input:checked[type="checkbox"] {
+    background: #fff;
+}
+
+.page-message-1 input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 5px;
+    top: 1.85px;
+    left: 2.5px;
+    background: #000;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: left 300ms linear;
+}
+
+.page-message-1 input:checked[type="checkbox"]::before {
+    left: 9.5px;
+}
+
+.page-message-1 .main span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: -0.1px;
+
+    color: #FFFFFF;
+
+}
+.page-message-1 .main .block span {
+    color: #EB5757;
+
+}
