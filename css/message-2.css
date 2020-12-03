@@ -1,0 +1,112 @@
+.page-message-2 {
+    height: 100vh;
+}
+.page-message-2 .header {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    background: #2A2A2F;
+    z-index: 10;
+}
+.page-message-2 .man-wrap {
+    flex-grow: 1;
+}
+.page-message-2 .man-wrap .avatar{
+    margin: 0px 10px 0px 20px;
+}
+.page-message-2 span {
+    font-style: normal;
+    font-weight: normal;
+    
+    letter-spacing: -0.1px;
+}
+.page-message-2 .title span {
+
+    font-size: 13px;
+    line-height: 16px;
+    color: #F9F9F9;
+}
+.page-message-2 .content span {
+    font-size: 10px;
+    line-height: 12px;
+    color: #0D51FF;
+}
+.page-message-2 .messages {
+    position: absolute;
+    top: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 16px;
+    background: #2A2A2F;
+}
+.page-message-2 .messages .time {
+    padding:15px 0px 11px;
+}
+.page-message-2 .messages .time span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+.page-message-2 .messages .message-content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 16px;
+}
+.page-message-2 .message.you {
+    align-self: flex-start;
+    margin-right: 30px;
+}
+
+.page-message-2 .message.my {
+    align-self: flex-end;
+    margin-left: 30px;
+}
+.page-message-2 .message.you .message-content {
+    background-color: #1D1D1D;
+    color: #FFFFFF;
+    border-radius: 0px 16px 16px 16px;
+    
+}
+.page-message-2 .message.my .message-content {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 16px 16px 0px 16px;
+    border: 1px solid rgba(112, 124, 151, 0.25);
+    box-shadow: 10px 10px 25px rgba(112, 124, 151, 0.1), 15px 15px 35px rgba(112, 124, 151, 0.05), 10px 10px 50px rgba(112, 124, 151, 0.1);
+    
+}
+.page-message-2 .message-end {
+    align-self: flex-end;
+    padding: 7px 0px 7px ;
+}
+
+.page-message-2 .message-input {
+    height: 92px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+    position: fixed;
+    bottom: 0px;
+    border-top: 1px solid #F2F2F2;
+    background: #2A2A2F;
+    z-index: 10;
+}
+.page-message-2 .message-input svg:nth-child(2) {
+    margin: 0px 14px 0px 17px;
+}
+.page-message-2 .message-send {
+    width: 40px;
+    height: 40px;
+    background: #000000;
+/* Shadow Active Icon */
+
+box-shadow: 4px 4px 25px rgba(42, 139, 242, 0.15), 2px 2px 25px rgba(42, 139, 242, 0.05), 4px 6px 10px rgba(42, 139, 242, 0.15);
+border-radius: 50%;
+}
