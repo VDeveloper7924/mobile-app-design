@@ -1,0 +1,93 @@
+.page-monthly-sub {
+    background-color: #2A2A2F;
+}
+.page-monthly-sub .header {
+    padding:18px 20px;
+}
+.page-monthly-sub .mark {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+
+    color: #F9F9F9;
+}
+.page-monthly-sub .content {
+    padding: 42px 16px;
+}
+.page-monthly-sub span.big {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    color: #ADADB3;
+
+}
+.page-monthly-sub span.small {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+
+}
+.page-monthly-sub .plan {
+    padding: 44px 0px 76px;
+}
+.page-monthly-sub .plan__content {
+    height: 96px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding:21px 24px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.page-monthly-sub .plan__content.active::after {
+    content: url(../svg/check.svg);
+    position: absolute;
+    top: 9.6px;
+    right: 11px;
+}
+.page-monthly-sub .plan__content span.price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+}
+.page-monthly-sub .plan__content span.con {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+}
+.page-monthly-sub .button {
+    
+}
+.page-monthly-sub button {
+    width: 180px;
+    height: 60px;
+    background: #000000;
+    border: 1px solid #111111;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    
+    margin-bottom: 43px;
+}
