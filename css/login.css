@@ -1,7 +1,6 @@
 body {
     background: #2A2A2F;
 }
-@media only screen and (max-width: 375px) {
     /* login-signup common */
 
     .page-login input,
@@ -98,4 +97,3 @@ body {
     .page-signup .log-content {
         margin-top: 20px;
     }
-}

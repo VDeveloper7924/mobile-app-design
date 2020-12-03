@@ -1,0 +1,38 @@
+.page-remove-follower {
+    background-color: #2A2A2F;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-remove-follower .content {
+    width: 180px;
+    height: 235.58px;
+    background-color: white;
+    border-radius: 19px;
+}
+
+.page-remove-follower .avatar {
+    padding-top: 31px;
+}
+.page-remove-follower .image {
+    margin-bottom: 9px;
+}
+.page-remove-follower .avatar span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.165px;
+    color: #000000;
+}
+.page-remove-follower .button button {
+    border-top: 1px solid #DEDEDE;
+}
+.page-remove-follower .button .remove {
+    height: 30.5px;
+    color: #2F80ED;
+}
+.page-remove-follower .button .cancel {
+    height: 34.5px;
+}

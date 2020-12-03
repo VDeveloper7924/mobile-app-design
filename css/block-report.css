@@ -1,0 +1,38 @@
+.page-block-post {
+    background-color: #2A2A2F;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-block-post .content {
+    width: 180px;
+    height: 235.58px;
+    background-color: white;
+    border-radius: 19px;
+}
+
+.page-block-post .avatar {
+    padding-top: 31px;
+}
+.page-block-post .image {
+    margin-bottom: 9px;
+}
+.page-block-post .avatar span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.165px;
+    color: #000000;
+}
+.page-block-post .button button {
+    border-top: 1px solid #DEDEDE;
+}
+.page-block-post .button .block {
+    height: 30.5px;
+    color: #EB5757;
+}
+.page-block-post .button .cancel {
+    height: 34.5px;
+}
