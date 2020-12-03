@@ -1,0 +1,75 @@
+.page-create-post {
+    background-color: #2A2A2F;
+    height: 100vh;
+    position: relative;
+}
+.page-create-post .header {
+    padding:18px 20px;
+}
+.page-create-post .mark {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+
+    color: #F9F9F9;
+}
+.page-create-post .content {
+    padding: 16px;
+}
+.page-create-post .content > div {
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    border-radius: 3px;
+}
+.page-create-post div.caption {
+    padding:10.5px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: -0.33px;
+
+    color: #7C7C7C;
+}
+.page-create-post div.small {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: -0.33px;
+
+    color: #FFFFFF;
+}
+.page-create-post div.people {
+    padding:11.5px 11px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+.page-create-post div.place {
+    padding:7.75px 13px 7.75px 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-create-post button {
+    width: 180px;
+    height: 60px;
+    background: #000000;
+    border: 1px solid #111111;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    bottom: 43px;
+    position: absolute;
+
+}
