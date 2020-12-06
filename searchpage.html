@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/homepage.css">
     <link rel="stylesheet" href="./css/search.css">
     <link rel="stylesheet" href="./css/tabnav.css">
+    <link rel="stylesheet" href="./css/modal.css">
 </head>
 <body>
 
@@ -88,6 +89,75 @@
         </div><!-- /footer -->
         
     </div>
+    <!-- Start of explorer -->
+    <div data-role="explorer" class="explorer page-homepage">
+        <div class="top d-flex d-a-c">
+            <div class="back-arrow">
+                <p><a href="searchpage.html" data-direction="reverse" class="ui-btn">
+                    <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.16294 1.28033C9.45583 0.987437 9.45583 0.512563 9.16294 0.21967C8.87005 -0.0732233 8.39517 -0.0732233 8.10228 0.21967L0.292893 8.02906C-0.0976311 8.41958 -0.0976311 9.05275 0.292893 9.44327L8.10228 17.2527C8.39517 17.5455 8.87005 17.5455 9.16294 17.2527C9.45583 16.9598 9.45583 16.4849 9.16294 16.192L1.70711 8.73616L9.16294 1.28033Z" fill="#F9F9F9"/>
+                    </svg>
+                </a></p>
+            </div>
+            <div class="title">
+                <span class="text"> &nbsp; &nbsp;Explorer</span>
+            </div>
+        </div>
+        <div data-role="content-top" class="content-top d-flex">
+            <div class="photo">
+                <a href="profile-to-follow.html" data-direction="reverse" class="ui-btn">
+                    <img src="./svg/photo/photo-sub.svg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="text d-flex-c">
+                <span class="fullname">Adfab Paris</span>
+                <span class="firstname">Adfab</span>
+            </div>
+            <div class="blank"></div>
+            <div class="expand d-jc-c d-a-c">
+                <img src="./svg/threepoint.svg" alt="" srcset="">
+            </div>
+        </div>
+        <div class="content-slidebar">
+            <img src="" alt="" srcset="">
+            <!-- <div class="swiper-container">                  
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./svg/image1.svg" alt="" srcset="">
+                    </div>
+                    <div class="swiper-slide"><img src="./svg/image2.svg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img src="./svg/image3.svg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img src="./svg/image4.svg" alt="" srcset=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            
+            </div> -->
+        </div>
+        <div class="content-bottom">
+            <div class="marks d-jc-b">
+                <div class="bottom-left d-flex">
+                    <div class="hart">
+                        <img src="./svg/hart.svg" alt="" srcset="">
+                    </div>
+                    <div class="message">
+                        <img src="./svg/message_1.svg" alt="" srcset="">
+                    </div>
+                    <div class="flane">
+                        <img src="./svg/flane.svg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="blank"></div>
+                <div class="bottom-ritht">
+                    <div>
+                        <img src="./svg/bookmark.svg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <div class="text">
+                <span>153</span><span>&nbsp;Liks</span>
+            </div>
+        </div>
+    </div>
     <!-- Start of tabnab -->
     <div data-role="bottom-tab" class="tabnab dark">
         <ul class="d-jc-b">
@@ -157,9 +227,27 @@
             </li>
         </ul>
     </div>
+
+    <div data-role="modal" class="modal">
+        <div class="modal-overlay modal-toggle"></div>
+        <div class="modal-wrapper modal-transition">
+          <div class="modal-header">
+            <button class="modal-close modal-toggle"><svg class="icon-close icon" viewBox="0 0 32 32"><use xlink:href="#icon-close"></use></svg></button>
+            <h2 class="modal-heading">This is a modal</h2>
+          </div>
+          
+          <div class="modal-body">
+            <div class="modal-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit eum delectus, libero, accusantium dolores inventore obcaecati placeat cum sapiente vel laboriosam similique totam id ducimus aperiam, ratione fuga blanditiis maiores.</p>
+              <button class="modal-toggle">Update</button>
+            </div>
+          </div>
+        </div>
+    </div>
 </body>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="./js/menu.js"></script>
 <script src="./js/swipe.js"></script>
+<script src="./js/modal.js"></script>
 </html>

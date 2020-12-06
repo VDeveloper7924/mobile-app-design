@@ -59,3 +59,33 @@
     right: 12px;
     z-index: 999;
 } 
+.explorer {
+    display: none;
+    /* position: absolute; */
+    top: 0px;
+    left: 100vw;
+    /* transition: all 0.5s; */
+}
+.explorer.show-ex  {
+    display: block;
+    /* position: absolute; */
+    top: 0px;
+    left: 0px;
+    /* transition: all 0.5s; */
+}
+.explorer {
+    height: calc( 100vh - 80px );
+}
+.explorer,
+.explorer .content-slidebar,
+.explorer .content-slidebar img {
+    width: 100%;
+}
+.explorer .title span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.33px;
+    color: #F9F9F9;
+}

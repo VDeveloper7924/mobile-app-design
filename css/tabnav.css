@@ -1,4 +1,7 @@
 /* bottom tab */
+body {
+    position: relative;
+}
 .tabnab {
     background-color: white;
     position: sticky;
