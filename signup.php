@@ -46,7 +46,7 @@
             <div class="log-content d-jc-c">
                 <span>
                     <p>Don’t have an account?&nbsp;
-                    <a href="login.html" data-direction="reverse" class="ui-btn">Log in.</a></p>
+                    <a href="login.php" data-direction="reverse" class="ui-btn">Log in.</a></p>
                 </span>
             </div>
         </div><!-- /footer -->

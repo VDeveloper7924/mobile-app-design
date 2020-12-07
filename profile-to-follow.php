@@ -25,7 +25,7 @@
         
         <div data-role="header" class="profile-follow">
             <div data-role="profile-top-bar" class="profile-top-bar d-flex">
-                <a href="homepage.html" data-direction="reverse" class="ui-btn">
+                <a href="homepage.php" data-direction="reverse" class="ui-btn">
                     <div class="d-jc-c">
                         <img src="./svg/arrow_left.svg" alt="" srcset="">
                         <span class="text">&nbsp;Cristina J</span>

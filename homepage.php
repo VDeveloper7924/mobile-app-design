@@ -11,10 +11,8 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/swipe.css">
-   
     <link rel="stylesheet" href="./css/homepage-top.css">
     <link rel="stylesheet" href="./css/homepage.css">
-    <link rel="stylesheet" href="./css/profilepage.css">
     <link rel="stylesheet" href="./css/tabnav.css">
 </head>
 <body>
@@ -30,7 +28,7 @@
                 <span>Saved</span>
             </div>
         </a>
-        <a href="#">
+        <a href="monthly-sub.php" data-direction="reverse" class="ui-btn">
             <div class="image">
                 <img src="./svg/subscrip.svg" alt="" srcset="">
             </div>
@@ -65,149 +63,161 @@
     </nav>
 
     <!-- Start of home page -->
-    <div data-role="page" id="profilepage" class="page page-profile">
+    <div data-role="page" id="homepage" class="page page-homepage">
         
-        <div data-role="header" class="profile">
-            <div class="profile-top d-flex">
-                <div class="menu-button">
-                    <a href="#" id="showLeftPush" class="menu-btn">
-                        <svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect y="0.906494" width="22.7565" height="1.5" rx="0.75"/>
-                            <rect y="8.08337" width="22.7565" height="1.5" rx="0.75"/>
-                            <rect y="15.2604" width="16.0151" height="1.5" rx="0.75"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="name d-flex-c">
-                    <div class="d-jc-c">
-                        <span class="text">Anniee L&nbsp;</span>
-                        <img src="./svg/arrow_bottom.svg" alt="" srcset="">
-                    </div>
-                   
-                    <img src="./svg/profile-image/top-avatar.svg" alt="" srcset="">
-                </div>
-                <div class="profile-blank">
-                </div>
+        <div data-role="header" class="homepage__header d-jc-b d-a-c">
+            <div class="menu-button">
+                <a href="#" id="showLeftPush" class="menu-btn">
+                    <img src="./svg/menu.svg" alt="" srcset="">
+                </a>
             </div>
-            <div class="profile-bottom d-jc-a">
-                <div>
-                    <p><a href="create-post.html" data-direction="reverse" class="ui-btn">
-                        <span class="number">100</span>
-                        <span class="text">Posts</span>
-                    </a></p>
-                    
-                </div>
-                <div>
-                    <p><a href="followers.html" data-direction="reverse" class="ui-btn">
-                        <span class="number">100</span>
-                        <span class="text">Followers</span>
-                    </a></p>
-                    
-                </div>
-                <div>
-                    <p><a href="followingpage.html" data-direction="reverse" class="ui-btn">
-                        <span class="number">100</span>
-                        <span class="text">Followings</span>
-                    </a></p>
-                    
-                </div>
+            <div class="small-logo">
+                <img src="./svg/small_logo.svg" alt="" srcset="">
             </div>
-            
+            <div class="message">
+                <p><a href="messagepage.php" data-direction="reverse" class="ui-btn">
+                    <img src="./svg/message.svg" alt="" srcset="">
+                </a></p>
+                
+            </div>
         </div><!-- /header -->
         
         <div data-role="content" class="content d-flex-c d-jc-c">
             <div data-role="content-navbar" class="content-navbar">
                 <section class="swipey-bar-wrapper">
                     <div class="swipey-bar-container">
-                        <a href="http://" class="swipey-box plus">
+                        <a href="http://" class="swipey-box">
                             <div class="photo-wrap">
-                                <img src="./svg/plus.svg" alt="" srcset="">
+                                <img src="./svg/photo/photo-1.svg" alt="" srcset="">
                             </div>
-                        </a><!-- /.swipey-box -->
-                        <a href="http://" class="swipey-box active">
-                            <div class="photo-wrap">
-                                <img src="./svg/profile-image/image-1.svg" alt="" srcset="">
+                            <div class="text">
+                                <span>Your Story</span>
                             </div>
                         </a><!-- /.swipey-box -->
                         <a href="http://" class="swipey-box">
                             <div class="photo-wrap">
-                                <img src="./svg/profile-image/image-2.svg" alt="" srcset="">
+                                <img src="./svg/photo/photo-2.svg" alt="" srcset="">
+                            </div>
+                            <div class="text">
+                                <span>Your Story</span>
                             </div>
                         </a><!-- /.swipey-box -->
                         <a href="http://" class="swipey-box">
                             <div class="photo-wrap">
-                                <img src="./svg/profile-image/image-3.svg" alt="" srcset="">
+                                <img src="./svg/photo/photo-3.svg" alt="" srcset="">
+                            </div>
+                            <div class="text">
+                                <span>Your Story</span>
                             </div>
                         </a><!-- /.swipey-box -->
                         <a href="http://" class="swipey-box">
                             <div class="photo-wrap">
-                                <img src="./svg/profile-image/image-4.svg" alt="" srcset="">
+                                <img src="./svg/photo/photo-4.svg" alt="" srcset="">
+                            </div>
+                            <div class="text">
+                                <span>Your Story</span>
                             </div>
                         </a><!-- /.swipey-box -->
                         <a href="http://" class="swipey-box">
                             <div class="photo-wrap">
-                                <img src="./svg/profile-image/image-1.svg" alt="" srcset="">
+                                <img src="./svg/photo/photo-1.svg" alt="" srcset="">
+                            </div>
+                            <div class="text">
+                                <span>Your Story</span>
                             </div>
                         </a><!-- /.swipey-box -->
-                        
+                        <a href="http://" class="swipey-box">
+                            <div class="photo-wrap">
+                                <img src="./svg/photo/photo-2.svg" alt="" srcset="">
+                            </div>
+                            <div class="text">
+                                <span>Your Story</span>
+                            </div>
+                        </a><!-- /.swipey-box -->
+                        <a href="http://" class="swipey-box">
+                            <div class="photo-wrap">
+                                <img src="./svg/photo/photo-3.svg" alt="" srcset="">
+                            </div>
+                            <div class="text">
+                                <span>Your Story</span>
+                            </div>
+                        </a><!-- /.swipey-box -->
+                        <a href="http://" class="swipey-box">
+                            <div class="photo-wrap">
+                                <img src="./svg/photo/photo-4.svg" alt="" srcset="">
+                            </div>
+                            <div class="text">
+                                <span>Your Story</span>
+                            </div>
+                        </a><!-- /.swipey-box -->
+                        <a href="http://" class="swipey-box">
+                            <div class="photo-wrap">
+                                <img src="./svg/photo/photo-1.svg" alt="" srcset="">
+                            </div>
+                            <div class="text">
+                                <span>Your Story</span>
+                            </div>
+                        </a><!-- /.swipey-box -->
                     </div><!-- /.swipey-bar-container -->
                 </section><!-- /.swipey-bar-wrapper -->
             </div>
-            <div data-role="content-top" class="content-top d-flex">
-                <ul class="d-jc-a d-a-c">
-                    <li>
-                        <button type="button" class="grid">
-                            <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.594849 23.4283H22.8689V0.744507H0.594849V23.4283ZM7.52443 21.916H2.07966V16.3711H7.52443V21.916ZM14.4541 16.3711H9.00938V21.916H14.4541V16.3711ZM15.9392 16.3711H21.384V21.916H15.9392V16.3711ZM7.52443 9.31391H2.07966V14.8588H7.52443V9.31391ZM9.00938 9.31391H14.4541V14.8588H9.00938V9.31391ZM21.384 9.31391H15.9392V14.8588H21.384V9.31391ZM21.384 2.25672V7.80165H15.9392V2.25672H21.384ZM7.52443 2.25672H2.07966V7.80165H7.52443V2.25672ZM9.00938 2.25672H14.4541V7.80165H9.00938V2.25672Z" fill="#332C2C"/>
-                            </svg>
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" class="galary">
-                            <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.70232 23.4283H16.4105C20.1681 23.4283 22.694 20.7426 22.694 16.7445L22.6929 15.1397C22.6929 14.8992 22.5859 14.6724 22.4011 14.5215C22.157 14.3233 21.9064 14.1019 21.6493 13.8748L21.6393 13.866L21.6317 13.8593C20.2565 12.6491 18.547 11.1448 16.3993 11.6543C14.8429 12.0223 14.0444 13.2221 13.3403 14.2801L13.3366 14.2856L13.3352 14.2878C12.868 14.9913 12.4272 15.655 11.812 16.0413C11.2072 16.4247 10.4878 16.1514 9.45873 15.6931L9.28388 15.6138C7.40618 14.7813 5.86593 15.0206 4.57292 16.3476C4.27111 16.6572 4.27333 17.1597 4.57737 17.467C4.88141 17.7767 5.37367 17.7721 5.67548 17.4625C6.50742 16.6084 7.37388 16.4928 8.66355 17.0667L8.83506 17.1426L8.83676 17.1434C9.87235 17.6038 11.2882 18.2333 12.6294 17.3876C13.5282 16.8205 14.0851 15.9835 14.623 15.1737L14.6234 15.1731C15.2469 14.2354 15.7859 13.4247 16.7513 13.1968C18.1326 12.8715 19.396 13.9838 20.6205 15.0619L20.6225 15.0637C20.6404 15.0795 20.6584 15.0953 20.6763 15.1111C20.8328 15.2493 20.9873 15.3857 21.1392 15.5139V16.7445C21.1392 19.8443 19.2827 21.845 16.4105 21.845H6.70232C3.83008 21.845 1.97354 19.8443 1.97354 16.7445V7.4283C1.97354 4.32855 3.83008 2.32784 6.70232 2.32784H16.4116C19.2838 2.32784 21.1392 4.32855 21.1392 7.4283V10.1163C21.1392 10.553 21.4878 10.908 21.9166 10.908C22.3454 10.908 22.694 10.553 22.694 10.1163V7.4283C22.694 3.43027 20.1692 0.744507 16.4116 0.744507H6.70232C2.94469 0.744507 0.419922 3.43027 0.419922 7.4283V16.7445C0.419922 20.7426 2.94469 23.4283 6.70232 23.4283ZM8.0527 11.3368C6.48126 11.3368 5.20385 10.0348 5.20385 8.43442C5.20385 6.83521 6.48126 5.53316 8.0527 5.53316C9.62413 5.53316 10.9016 6.83521 10.9016 8.43442C10.9016 10.0348 9.62413 11.3368 8.0527 11.3368ZM8.05269 7.11651C7.3388 7.11651 6.75745 7.70742 6.75745 8.43444C6.75745 9.16259 7.3388 9.7535 8.05269 9.7535C8.76768 9.7535 9.34792 9.16259 9.34792 8.43444C9.34792 7.70742 8.76768 7.11651 8.05269 7.11651Z" fill="#7B7B7B"/>
-                            </svg>
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" class="v-camera">
-                            <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.4282 2.92616C20.7578 2.60085 19.9831 2.69777 19.4094 3.17905L17.6557 4.65073C17.308 4.94261 17.2569 5.46845 17.5416 5.82718C17.8263 6.18256 18.3402 6.23604 18.689 5.94304L20.4427 4.47136C20.5568 4.37555 20.673 4.40786 20.7306 4.43571C20.7904 4.46579 20.8892 4.53598 20.8892 4.69195V12.3467C20.8892 12.5026 20.7904 12.5728 20.7306 12.6029C20.673 12.6319 20.5568 12.6631 20.4416 12.5673L16.2888 9.08024V4.6485C16.2888 1.91904 14.3765 0.0128784 11.6384 0.0128784H4.89538C2.1573 0.0128784 0.244995 1.91904 0.244995 4.6485V12.4024C0.244995 15.124 2.15296 17.0257 4.88452 17.0257C5.33434 17.0257 5.69942 16.6514 5.69942 16.1902C5.69942 15.729 5.33434 15.3546 4.88452 15.3546C3.02762 15.3546 1.8748 14.2239 1.8748 12.4024V4.6485C1.8748 2.8192 3.03197 1.68397 4.89538 1.68397H11.6384C13.5019 1.68397 14.659 2.8192 14.659 4.6485V12.4024C14.659 14.2239 13.5019 15.3546 11.6384 15.3546H9.75982C9.30999 15.3546 8.94491 15.729 8.94491 16.1902C8.94491 16.6514 9.30999 17.0257 9.75982 17.0257H11.6384C14.3765 17.0257 16.2888 15.124 16.2888 12.4024V11.2404L19.4094 13.8596C19.7571 14.1526 20.1797 14.303 20.6078 14.303C20.8849 14.303 21.1641 14.2406 21.4282 14.1125C22.1007 13.786 22.519 13.1098 22.519 12.3467V4.69195C22.519 3.92881 22.1007 3.25258 21.4282 2.92616Z" fill="#7B7B7B"/>
-                            </svg>
-                        </button>
-                    </li>
-                </ul>
-            </div>
-            <div data-role="content-main" class="content-main">
-                <div class="picture">
-                    <img src="./svg/profile-image/picture-6.svg" alt="" srcset="">
-                </div>
-                <div class="picture">
-                    <img src="./svg/profile-image/picture-2.svg" alt="" srcset="">
-                </div>
-                <div class="picture">
-                    <img src="./svg/profile-image/picture-3.svg" alt="" srcset="">
-                </div>
-                <div class="picture">
-                    <img src="./svg/profile-image/picture-4.svg" alt="" srcset="">
-                </div>
-                <div class="picture">
-                    <img src="./svg/profile-image/picture-5.svg" alt="" srcset="">
-                </div>
-                <div class="picture">
-                    <img src="./svg/profile-image/picture-6.svg" alt="" srcset="">
-                </div>
-                <div class="picture">
-                    <img src="./svg/profile-image/picture-7.svg" alt="" srcset="">
-                </div>
-                <div class="picture">
-                    <img src="./svg/profile-image/picture-8.svg" alt="" srcset="">
-                </div>
-                <div class="picture">
-                    <img src="./svg/profile-image/picture-9.svg" alt="" srcset="">
-                </div>
-            </div>
+            <div class="line">
 
+            </div>
+            <div data-role="content-top" class="content-top d-flex">
+                <div class="photo">
+                    <a href="profile-to-follow.php" data-direction="reverse" class="ui-btn">
+                        <img src="./svg/photo/photo-sub.svg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="text d-flex-c">
+                    <span class="fullname">Adfab Paris</span>
+                    <span class="firstname">Adfab</span>
+                </div>
+                <div class="blank"></div>
+                <div class="expand d-jc-c d-a-c">
+                    <img src="./svg/threepoint.svg" alt="" srcset="">
+                </div>
+            </div>
+            <div class="content-slidebar">
+                <div class="swiper-container">                  
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./svg/image1.svg" alt="" srcset="">
+                        </div>
+                        <div class="swiper-slide"><img src="./svg/image2.svg" alt="" srcset=""></div>
+                        <div class="swiper-slide"><img src="./svg/image3.svg" alt="" srcset=""></div>
+                        <div class="swiper-slide"><img src="./svg/image4.svg" alt="" srcset=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                
+                </div>
+            </div>
+            <div class="content-bottom">
+                <div class="marks d-jc-b">
+                    <div class="bottom-left d-flex">
+                        <div class="hart">
+                            <img src="./svg/hart.svg" alt="" srcset="">
+                        </div>
+                        <div class="message">
+                            <img src="./svg/message_1.svg" alt="" srcset="">
+                        </div>
+                        <div class="flane">
+                            <img src="./svg/flane.svg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="blank"></div>
+                    <div class="bottom-ritht">
+                        <div>
+                            <img src="./svg/bookmark.svg" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="text">
+                    <span>153</span><span>&nbsp;Liks</span>
+                </div>
+            </div>
+            
         </div><!-- /content -->
 
         <div data-role="footer">
@@ -216,10 +226,10 @@
         
     </div>
     <!-- Start of tabnav -->
-    <div data-role="bottom-tab" class="tabnab">
+    <div data-role="bottom-tab" class="tabnab dark">
         <ul class="d-jc-b">
-            <li>
-                <p><a href="homepage.html" data-direction="reverse" class="ui-btn">
+            <li  class="active">
+                <p><a href="homepage.php" data-direction="reverse" class="ui-btn">
                     <div class="image">
                         <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3637 2.56118C11.6148 2.47961 11.8852 2.47961 12.1363 2.56118C12.2329 2.59259 12.3596 2.66005 12.5792 2.84648C12.8056 3.03861 13.0776 3.30988 13.4824 3.71464L18 8.23223V15.1216C18 15.974 17.9994 16.5683 17.9616 17.0309C17.9245 17.4848 17.8554 17.7455 17.7548 17.9431C17.539 18.3664 17.1948 18.7106 16.7715 18.9263C16.574 19.027 16.3132 19.0961 15.8593 19.1332C15.3967 19.171 14.8025 19.1716 13.95 19.1716H9.55C8.69755 19.1716 8.10331 19.171 7.64068 19.1332C7.1868 19.0961 6.92604 19.027 6.72852 18.9263C6.30516 18.7106 5.96095 18.3664 5.74524 17.9431C5.6446 17.7455 5.57546 17.4848 5.53838 17.0309C5.50058 16.5683 5.5 15.974 5.5 15.1216V8.23223L10.0176 3.71464C10.4224 3.30988 10.6945 3.03861 10.9208 2.84648C11.1404 2.66005 11.2671 2.59259 11.3637 2.56118ZM4.21914 7.39177L1.21967 10.3912C0.926777 10.6841 0.926777 11.159 1.21967 11.4519C1.51256 11.7448 1.98744 11.7448 2.28033 11.4519L4 9.73223V15.1216L4 15.1537C3.99999 15.9665 3.99999 16.6221 4.04336 17.153C4.08803 17.6997 4.18238 18.1798 4.40873 18.624C4.76825 19.3296 5.34193 19.9033 6.04754 20.2628C6.49175 20.4892 6.9719 20.5835 7.51853 20.6282C8.04944 20.6716 8.70505 20.6716 9.51788 20.6716H9.55H13.95H13.9821C14.795 20.6716 15.4506 20.6716 15.9815 20.6282C16.5281 20.5835 17.0082 20.4892 17.4525 20.2628C18.1581 19.9033 18.7318 19.3296 19.0913 18.624C19.3176 18.1798 19.412 17.6997 19.4566 17.153C19.5 16.6221 19.5 15.9665 19.5 15.1537V15.1216V9.73223L21.2197 11.4519C21.5126 11.7448 21.9874 11.7448 22.2803 11.4519C22.5732 11.159 22.5732 10.6841 22.2803 10.3912L14.5431 2.65398L14.5215 2.63246C14.1439 2.25475 13.8286 1.93948 13.55 1.70297C13.2594 1.4563 12.9598 1.25156 12.5998 1.13459C12.0475 0.955135 11.4525 0.955135 10.9002 1.13459C10.5402 1.25156 10.2406 1.4563 9.95 1.70297C9.6714 1.93948 9.35615 2.25475 8.97846 2.63245L8.97845 2.63246L8.95693 2.65398L4.2202 7.39071C4.21985 7.39107 4.21949 7.39142 4.21914 7.39177Z" fill="white"/>
@@ -231,7 +241,7 @@
                 
             </li>
             <li>
-                <p><a href="searchpage.html" data-direction="reverse" class="ui-btn">
+                <p><a href="searchpage.php" data-direction="reverse" class="ui-btn">
                     <div class="image">
                         <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 9.75C2.5 5.74594 5.74594 2.5 9.75 2.5C13.7541 2.5 17 5.74594 17 9.75C17 13.7541 13.7541 17 9.75 17C5.74594 17 2.5 13.7541 2.5 9.75ZM9.75 1C4.91751 1 1 4.91751 1 9.75C1 14.5825 4.91751 18.5 9.75 18.5C11.8962 18.5 13.862 17.7273 15.3842 16.4449L18.2197 19.2803C18.5126 19.5732 18.9874 19.5732 19.2803 19.2803C19.5732 18.9874 19.5732 18.5126 19.2803 18.2197L16.4449 15.3842C17.7273 13.862 18.5 11.8962 18.5 9.75C18.5 4.91751 14.5825 1 9.75 1Z" fill="white"/>
@@ -243,19 +253,23 @@
                 
             </li>
             <li>
-                <p><a href="camera.html" data-direction="reverse" class="ui-btn">
-                    <div class="image">
+                <p><a href="camera.php" data-direction="reverse" class="ui-btn">
+                    <div class="image profer">
                         <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12.5004 5.99992C9.34961 5.99992 6.78613 8.5634 6.78613 11.7142C6.78613 14.865 9.34965 17.4285 12.5004 17.4285C15.6512 17.4285 18.2147 14.865 18.2147 11.7142C18.2147 8.5634 15.6513 5.99992 12.5004 5.99992ZM12.5004 15.9999C10.1371 15.9999 8.21473 14.0775 8.21473 11.7142C8.21473 9.35093 10.1371 7.42852 12.5004 7.42852C14.8637 7.42852 16.7861 9.35093 16.7861 11.7142C16.7861 14.0775 14.8637 15.9999 12.5004 15.9999Z" fill="white" stroke="black"/>
-                            <path d="M23.9206 5.99612C23.9199 4.81627 22.958 3.85612 21.7778 3.85612H18.6479L17.416 1.39465C17.2946 1.15269 17.0477 1 16.777 1H8.20561C7.93496 1 7.68733 1.15269 7.56665 1.39465L6.33617 3.85682L3.21123 3.86099C2.03166 3.86309 1.07184 4.82399 1.07184 6.00314V18.8579C1.07184 20.0391 2.03307 21 3.21469 21H21.7854C22.967 21 23.9282 20.0384 23.9282 18.8565L23.9206 5.99612ZM21.7854 19.5719H3.21474C2.82064 19.5719 2.50044 19.2518 2.50044 18.8579V6.00309C2.50044 5.60979 2.8206 5.28977 3.21333 5.28907L6.77917 5.2842C7.04982 5.2835 7.29674 5.13082 7.41742 4.88955L8.6472 2.42804H16.3355L17.5674 4.8895C17.6888 5.13147 17.9357 5.28416 18.2064 5.28416H21.7778C22.1712 5.28416 22.5005 5.60422 22.5005 5.99747V18.8572C22.5004 19.2511 22.1795 19.5719 21.7854 19.5719Z" fill="white" stroke="black"/>
-                        </svg>                            
+                            <mask id="path-1-inside-1" fill="white">
+                            <path d="M12.5004 5.99992C9.34961 5.99992 6.78613 8.5634 6.78613 11.7142C6.78613 14.865 9.34965 17.4285 12.5004 17.4285C15.6512 17.4285 18.2147 14.865 18.2147 11.7142C18.2147 8.5634 15.6513 5.99992 12.5004 5.99992ZM12.5004 15.9999C10.1371 15.9999 8.21473 14.0775 8.21473 11.7142C8.21473 9.35093 10.1371 7.42852 12.5004 7.42852C14.8637 7.42852 16.7861 9.35093 16.7861 11.7142C16.7861 14.0775 14.8637 15.9999 12.5004 15.9999Z"/>
+                            </mask>
+                            <path d="M12.5004 5.99992C9.34961 5.99992 6.78613 8.5634 6.78613 11.7142C6.78613 14.865 9.34965 17.4285 12.5004 17.4285C15.6512 17.4285 18.2147 14.865 18.2147 11.7142C18.2147 8.5634 15.6513 5.99992 12.5004 5.99992ZM12.5004 15.9999C10.1371 15.9999 8.21473 14.0775 8.21473 11.7142C8.21473 9.35093 10.1371 7.42852 12.5004 7.42852C14.8637 7.42852 16.7861 9.35093 16.7861 11.7142C16.7861 14.0775 14.8637 15.9999 12.5004 15.9999Z" fill="white"/>
+                            <path d="M12.5004 4.49992C8.52118 4.49992 5.28613 7.73497 5.28613 11.7142H8.28613C8.28613 9.39183 10.178 7.49992 12.5004 7.49992V4.49992ZM5.28613 11.7142C5.28613 15.6935 8.52124 18.9285 12.5004 18.9285V15.9285C10.1781 15.9285 8.28613 14.0366 8.28613 11.7142H5.28613ZM12.5004 18.9285C16.4796 18.9285 19.7147 15.6935 19.7147 11.7142H16.7147C16.7147 14.0366 14.8228 15.9285 12.5004 15.9285V18.9285ZM19.7147 11.7142C19.7147 7.73497 16.4797 4.49992 12.5004 4.49992V7.49992C14.8228 7.49992 16.7147 9.39183 16.7147 11.7142H19.7147ZM12.5004 14.4999C10.9656 14.4999 9.71473 13.2491 9.71473 11.7142H6.71473C6.71473 14.9059 9.30871 17.4999 12.5004 17.4999V14.4999ZM9.71473 11.7142C9.71473 10.1794 10.9656 8.92852 12.5004 8.92852V5.92852C9.30871 5.92852 6.71473 8.5225 6.71473 11.7142H9.71473ZM12.5004 8.92852C14.0353 8.92852 15.2861 10.1794 15.2861 11.7142H18.2861C18.2861 8.5225 15.6922 5.92852 12.5004 5.92852V8.92852ZM15.2861 11.7142C15.2861 13.2491 14.0353 14.4999 12.5004 14.4999V17.4999C15.6922 17.4999 18.2861 14.9059 18.2861 11.7142H15.2861Z" fill="white" mask="url(#path-1-inside-1)"/>
+                            <path d="M23.9205 5.99612C23.9198 4.81627 22.9579 3.85612 21.7777 3.85612H18.6478L17.4159 1.39465C17.2945 1.15269 17.0476 1 16.777 1H8.20555C7.9349 1 7.68727 1.15269 7.56659 1.39465L6.33611 3.85682L3.21116 3.86099C2.0316 3.86309 1.07178 4.82399 1.07178 6.00314V18.8579C1.07178 20.0391 2.033 21 3.21463 21H21.7853C22.967 21 23.9282 20.0384 23.9282 18.8565L23.9205 5.99612ZM21.7854 19.5719H3.21467C2.82058 19.5719 2.50038 19.2518 2.50038 18.8579V6.00309C2.50038 5.60979 2.82053 5.28977 3.21327 5.28907L6.7791 5.2842C7.04976 5.2835 7.29668 5.13082 7.41736 4.88955L8.64714 2.42804H16.3355L17.5673 4.8895C17.6887 5.13147 17.9356 5.28416 18.2063 5.28416H21.7777C22.1712 5.28416 22.5004 5.60422 22.5004 5.99747V18.8572C22.5004 19.2511 22.1795 19.5719 21.7854 19.5719Z" fill="white" stroke="white" stroke-width="1.5"/>
+                        </svg>
                     </div>
                     <div class="line"></div>
                 </a></p>
                 
             </li>
             <li>
-                <p><a href="activitypage.html" data-direction="reverse" class="ui-btn">
+                <p><a href="activitypage.php" data-direction="reverse" class="ui-btn">
                     <div class="image">
                         <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M9.30694 3.69422C7.75004 2.10193 5.18806 2.10193 3.63115 3.69422C2.12295 5.23669 2.12295 7.70139 3.63115 9.24387L10.7303 16.5044C10.8064 16.5822 10.9317 16.5822 11.0078 16.5044L18.1069 9.24387C19.6151 7.70139 19.6151 5.23669 18.1069 3.69422C16.55 2.10193 13.9881 2.10193 12.4312 3.69422L11.4053 4.74338C11.2642 4.88769 11.0709 4.96904 10.869 4.96904C10.6672 4.96904 10.4739 4.88769 10.3328 4.74338L9.30694 3.69422ZM2.55864 2.64554C4.70394 0.451487 8.23415 0.451487 10.3794 2.64554L10.869 3.14626L11.3586 2.64554C13.5039 0.451489 17.0342 0.451487 19.1794 2.64554C21.2576 4.77096 21.2576 8.16713 19.1794 10.2925L12.0803 17.5531C11.4158 18.2327 10.3223 18.2327 9.65781 17.5531L2.55864 10.2925C0.480451 8.16713 0.480455 4.77096 2.55864 2.64554Z" fill="white"/>
@@ -266,8 +280,8 @@
                 </a></p>
                 
             </li>
-            <li class="active">
-                <p><a href="profilepage.html" data-direction="reverse" class="ui-btn">
+            <li>
+                <p><a href="profilepage.php" data-direction="reverse" class="ui-btn">
                     <div class="image">
                         <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M9.00429 1C6.07027 1 3.69177 3.38864 3.69177 6.33517C3.69177 9.28171 6.07027 11.6703 9.00429 11.6703C11.9383 11.6703 14.3168 9.28171 14.3168 6.33517C14.3168 3.38864 11.9383 1 9.00429 1ZM9.00429 2.44767C11.1422 2.44767 12.8753 4.18816 12.8753 6.33517C12.8753 8.48218 11.1422 10.2227 9.00429 10.2227C6.8664 10.2227 5.1333 8.48218 5.1333 6.33517C5.1333 4.18816 6.8664 2.44767 9.00429 2.44767ZM6.83005 13.8209C6.05233 13.8749 5.26621 13.9859 4.4908 14.1521C2.99418 14.4604 1.79685 15.0763 1.28724 16.0999C1.09503 16.5002 0.99839 16.9288 1.00002 17.3627C0.999444 17.7935 1.0953 18.2227 1.28062 18.6153C1.76994 19.6271 2.8278 20.1997 4.25624 20.5171L4.51213 20.5705C5.26648 20.7407 6.05284 20.8553 6.84446 20.909C6.91189 20.9288 7.07258 20.9472 7.24796 20.9561L7.39222 20.9615C7.46639 20.9633 7.55058 20.9637 7.67601 20.9637C8.81385 21.0263 9.99342 21.0081 11.1675 20.9081C11.7932 20.8653 12.4231 20.7835 13.0477 20.6636L13.5151 20.5666C15.0576 20.2623 16.2126 19.6836 16.7186 18.6164C17.0937 17.8241 17.0937 16.9047 16.7188 16.1127C16.214 15.0483 15.0737 14.4744 13.5034 14.1509C12.8873 14.0194 12.2612 13.922 11.6307 13.8599L11.1697 13.8209C9.72593 13.6935 8.27382 13.6935 6.83005 13.8209ZM11.0436 15.263L11.0562 15.264C11.7799 15.3149 12.4991 15.4165 13.2087 15.568C14.3751 15.8083 15.1667 16.2067 15.4171 16.7348C15.6057 17.133 15.6057 17.5958 15.4169 17.9944C15.1829 18.4879 14.472 18.8691 13.4445 19.1021L13.2195 19.1498C12.496 19.3112 11.7791 19.4152 11.0576 19.4647C9.93793 19.5599 8.82495 19.5771 7.71477 19.5171L7.32116 19.5103C7.2119 19.5048 7.11981 19.4942 7.03447 19.4771C6.35872 19.4261 5.75066 19.3454 5.16027 19.2283L4.80775 19.1537C3.63771 18.9244 2.83915 18.5243 2.58024 17.989C2.48964 17.797 2.44125 17.5803 2.44154 17.3609C2.44073 17.1428 2.48848 16.931 2.58118 16.7379C2.83293 16.2324 3.67919 15.7971 4.78606 15.569C5.50073 15.4159 6.21962 15.3144 6.94294 15.264C8.31603 15.143 9.68372 15.143 11.0436 15.263Z" fill="white"/>

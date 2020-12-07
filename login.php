@@ -32,7 +32,7 @@
             </div>
             <div class="content-login-button d-flex-c d-jc-c">
                 
-                <p><a href="homepage.html" data-direction="reverse" class="ui-btn button d-flex"><button>Log In</button></a></p>
+                <p><a href="homepage.php" data-direction="reverse" class="ui-btn button d-flex"><button>Log In</button></a></p>
             </div>
         </div><!-- /content -->
 
@@ -49,7 +49,7 @@
             <div class="log-content d-jc-c">
                 <span>
                     <p> have an account? &nbsp;
-                    <a href="signup.html" data-direction="reverse" class="ui-btn">Log in.</a></p>
+                    <a href="signup.php" data-direction="reverse" class="ui-btn">Log in.</a></p>
                 </span>
             </div>
         </div><!-- /footer -->
